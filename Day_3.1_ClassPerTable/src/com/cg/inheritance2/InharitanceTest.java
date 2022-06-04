@@ -1,11 +1,11 @@
-package com.cg.iheritance;
+package com.cg.inheritance2;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class Inhritance {
 
+public class InharitanceTest {
 	public static void main(String[] args) {
 		EntityManagerFactory factory=Persistence.createEntityManagerFactory("JPA-PU");
 		EntityManager em=factory.createEntityManager();
